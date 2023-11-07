@@ -1,0 +1,15 @@
+@media(max-width: 410px){
+    header{
+        width: 100%;
+    }
+  .nav-item li a {
+    display: none;
+  }
+  .social-icon li a {
+    display: none;
+  }
+  .toggle-btn {
+    display: block;
+
+  }
+}

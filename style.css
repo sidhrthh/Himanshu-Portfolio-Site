@@ -48,8 +48,30 @@ header {
 .toggle-btn {
     cursor: pointer;
     display: none;
-}
+    margin-top: 30px;
+    position: absolute;
+    right: 40px;
 
+}
+.dropdown-menu{
+    position: absolute;
+    right: 2rem;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 4.5rem;
+    border-radius: 50px;
+    background-color: #FF6000;
+    
+}
+.dropdown-menu li {
+    background-color: #FF6000;
+
+}
+.dropdown-menu li a {
+    color: white;
+}
 a {
     color: black;
 }
