@@ -9,7 +9,55 @@
 
 body {
     background-color: #000;
+    overflow: hidden
 }
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* margin: auto; */
+}
+
+.logo img {
+    margin-left: 40px;
+    width: 140px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #000;
+    font-size: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.social-icon {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/* 
 
 header {
     background-color: white;
@@ -76,4 +124,4 @@ header {
 }
 a {
     color: black;
-}
+} */

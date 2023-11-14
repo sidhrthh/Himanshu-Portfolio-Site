@@ -1,15 +1,40 @@
-@media(max-width: 410px){
-    header{
-        width: 100%;
-    }
-  .nav-item li a {
-    display: none;
-  }
-  .social-icon li a {
-    display: none;
-  }
-  .toggle-btn {
+@media only screen and (max-width: 800px) and (min-width: 450px) {
+  .hamburger {
     display: block;
+    margin-right: 41px;
+    cursor: pointer;
+  }
+
+  .nav-bar {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #FF6000;
+    /* transition: 0.2s; */
+    overflow: hidden;
+
+  }
+.nav-bar.active{
+  height: 450px;
+
+}
+  .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    text-align: center;
+  }
+  .nav-bar ul li a {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .logo img {
+    margin-left: 25px;
 
   }
 }
