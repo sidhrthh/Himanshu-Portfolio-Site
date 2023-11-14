@@ -49,79 +49,60 @@ header {
     gap: 1rem;
 }
 
-
-
-
-
-
-
-
-
-/* 
-
-header {
-    background-color: white;
-    position: relative;
-
-}
-
-.navbar {
-    width: 100%;
-    height: 100px;
-    max-width: 1200px;
-    margin: 0 auto;
+/* Home section Style */
+#home {
     display: flex;
-    justify-content: space-between;
-}
-
-.logo img {
-    margin: 15px;
-}
-
-.nav-item {
-    display: flex;
-    gap: 2rem;
-    font-size: 20px;
-    font-weight: 500;
-    padding-top: 32px;
-
-}
-
-.social-icon {
-    display: flex;
-    gap: 1rem;
-    padding-top: 22px;
-}
-
-.toggle-btn {
-    cursor: pointer;
-    display: none;
-    margin-top: 30px;
-    position: absolute;
-    right: 40px;
-
-}
-.dropdown-menu{
-    position: absolute;
-    right: 2rem;
-    top: 100px;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    line-height: 4.5rem;
-    border-radius: 50px;
-    background-color: #FF6000;
-    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    
-    
-}
-.dropdown-menu li {
-    background-color: #FF6000;
-
-}
-.dropdown-menu li a {
+    flex-direction: row;
+    margin: 2% 7%;
     color: white;
 }
-a {
-    color: black;
-} */
+
+.intro {
+    margin-top: 60px;
+
+}
+
+.heading {
+    font-size: 75px;
+
+}
+
+.discription {
+    margin-top: 15px;
+}
+
+.button {
+    margin-top: 25px;
+    background-color: #454545;
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    border-radius: 30px;
+    height: 45px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.camera-head {
+    position: relative;
+    top: 12px;
+    /* right: 15px; */
+    left: 20px;
+
+}
+
+.camera-icon {
+    position: relative;
+    top: 9px;
+    left: 45px;
+}
+
+.icon-bgcolor {
+    background-color: #ff6000;
+    height: 57px;
+    width: 57px;
+    position: relative;
+    top: 77px;
+    left: 132px;
+    border-radius: 50px;
+}
