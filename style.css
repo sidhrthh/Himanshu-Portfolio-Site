@@ -9,7 +9,7 @@
 
 body {
     background-color: #000;
-    overflow: hidden
+    /* overflow: hidden */
 }
 
 header {
@@ -105,4 +105,8 @@ header {
     top: 77px;
     left: 132px;
     border-radius: 50px;
+}
+/* About Section */
+#about{
+    color: white;
 }
