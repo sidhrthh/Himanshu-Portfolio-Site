@@ -13,7 +13,6 @@
     right: 0;
     width: 100vw;
     background-color: #FF6000;
-    /* transition: 0.2s; */
     overflow: hidden;
 
   }
@@ -36,5 +35,24 @@
   .logo img {
     margin-left: 25px;
 
+  }
+  #home{
+    flex-direction: column;
+    margin-top: 400px;
+  }
+  .heading{
+    font-size: 40px;
+    text-align: center;
+  }
+  .discription {
+    text-align: center;
+  }
+  .touch-btn{
+    margin-left: 100px;
+  }
+  .home-image img{
+    width: 360px;
+    display: block;
+    margin: 55px auto;
   }
 }
