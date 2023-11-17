@@ -16,16 +16,19 @@
     overflow: hidden;
 
   }
-.nav-bar.active{
-  height: 450px;
 
-}
+  .nav-bar.active {
+    height: 450px;
+
+  }
+
   .nav-bar ul {
     display: block;
     width: fit-content;
     margin: 80px auto 0 auto;
     text-align: center;
   }
+
   .nav-bar ul li a {
     margin-bottom: 15px;
     font-size: 20px;
@@ -36,23 +39,69 @@
     margin-left: 25px;
 
   }
-  #home{
+
+  #home {
     flex-direction: column;
     margin-top: 400px;
   }
-  .heading{
+
+  .heading {
     font-size: 40px;
     text-align: center;
   }
+
   .discription {
     text-align: center;
   }
-  .touch-btn{
+
+  .touch-btn {
     margin-left: 100px;
   }
-  .home-image img{
+
+  .home-image img {
     width: 360px;
     display: block;
     margin: 55px auto;
+  }
+
+  /* About Section */
+  #about-me {
+    flex-direction: column;
+  }
+
+  .about-img img {
+    width: 420px;
+  }
+
+  .about-contant {
+    position: relative;
+    top: 220px;
+    left: 0px;
+  }
+
+  .touch-btn {
+    margin-left: 125px;
+
+  }
+
+  .interest {
+    color: white;
+    font-size: 25px;
+    margin-left: 70px;
+  }
+  #about-text{
+    margin-left: 10px;
+
+  }
+  .about-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .about-text-sub{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    
+
   }
 }
