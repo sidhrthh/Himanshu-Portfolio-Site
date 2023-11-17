@@ -89,19 +89,34 @@
     font-size: 25px;
     margin-left: 70px;
   }
-  #about-text{
+
+  #about-text {
     margin-left: 10px;
 
   }
+
   .about-heading {
     font-size: 30px;
     text-align: center;
   }
-  .about-text-sub{
+
+  .about-text-sub {
     font-size: 15px;
     text-align: center;
     margin-top: 15px;
-
-
   }
+
+  .experience {
+    flex-direction: column;
+    margin: 10%;
+  }
+
+  .experience-item {
+    margin: 20px 0 30px 0;
+  }
+
+  .big-text {
+    font-size: 45px;
+  }
+
 }
