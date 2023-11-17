@@ -104,6 +104,21 @@ header {
     border-radius: 50px;
 }
 /* About Section */
+#about-me{
+display: flex;
+margin: 10% 6.5%;
+}
+.about-img img {
+    width: 600px;
+}
+#about{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.about-heading{
+    font-size: 40px;
+
+}
 #about{
     color: white;
 }
