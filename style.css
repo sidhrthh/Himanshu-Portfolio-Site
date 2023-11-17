@@ -19,7 +19,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-   
+
 }
 
 .logo img {
@@ -103,30 +103,52 @@ header {
     left: 132px;
     border-radius: 50px;
 }
-/* About Section */
-#about{
-    border: 2px solid red;
 
+/* About Section */
+
+#about-me {
+    display: flex;
+    margin: 0 6%;
 }
-#about-me{
-display: flex;
-margin: 10% 6.5%;
-}
+
 .about-img img {
     width: 600px;
 }
-#about-text{
+
+#about-text {
     margin-left: 40px;
     color: white;
     margin-top: 30px;
 }
-.about-heading{
+
+.about-heading {
     font-size: 40px;
 
 }
 
-.interest  {
+.about-contant {
+    position: relative;
+    top: 320px;
+    left: 175px;
+
+}
+
+.touch-btn {
+    margin-left: 80px;
+}
+
+.interest {
     color: white;
     font-size: 35px;
+}
 
+.email-head {
+    margin-top: 10px;
+    margin-left: 37px;
+}
+
+.email-icon {
+    z-index: 1;
+    margin-top: 7px;
+    margin-left: 12px;
 }
