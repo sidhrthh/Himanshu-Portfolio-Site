@@ -168,3 +168,30 @@ header {
 .small-text{
     font-size: 20px;
 }
+
+/* Skills Section */
+#skill-section{
+   
+}
+.skill-heading{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5%;
+}
+.skill img {
+    border-radius: 10px;
+
+}
+.skill-sub-heading{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 5px;
+
+}
