@@ -120,4 +120,14 @@
     font-size: 45px;
   }
 
+  .skill {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+  }
+  .skill-box{
+    margin-top: 50px;
+  }
+
 }
