@@ -70,7 +70,8 @@
   }
 
   .about-img img {
-    width: 420px;
+    width: 360px;
+    margin: 0 17px;
   }
 
   .about-contant {
