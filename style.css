@@ -170,9 +170,7 @@ header {
 }
 
 /* Skills Section */
-#skill-section{
-   
-}
+
 .skill-heading{
     color: white;
     font-size: 50px;
@@ -184,10 +182,10 @@ header {
     justify-content: space-around;
     margin: 5%;
 }
-.skill img {
+/* .skill img {
     border-radius: 10px;
 
-}
+} */
 .skill-sub-heading{
     color: white;
     font-size: 32px;
