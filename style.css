@@ -151,8 +151,9 @@ header {
     margin-top: 7px;
     margin-left: 12px;
 }
+
 /* Experience section */
-.experience{
+.experience {
     color: white;
     border: 1px solid #ff6000;
     margin: 6%;
@@ -162,34 +163,58 @@ header {
     text-align: center;
     justify-content: space-between;
 }
-.big-text{
+
+.big-text {
     font-size: 55px;
 }
-.small-text{
+
+.small-text {
     font-size: 20px;
 }
 
 /* Skills Section */
 
-.skill-heading{
+.skill-heading {
     color: white;
     font-size: 50px;
     text-align: center;
 }
-.skill{
+
+.skill {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 5%;
 }
+
 /* .skill img {
     border-radius: 10px;
 
 } */
-.skill-sub-heading{
+.skill-sub-heading {
     color: white;
     font-size: 32px;
     text-align: center;
     margin-top: 5px;
+}
+
+/* Gadgets and software */
+#gadgets-software-section {
+    margin: 10% 7% 3% 7%;
+}
+
+.gad-heading {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.use{
+    font-size: 20px;
+}
+.gad-soft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 55px;
 
 }
