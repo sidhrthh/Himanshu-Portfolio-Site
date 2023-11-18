@@ -126,8 +126,28 @@
     align-items: center;
     margin: 5%;
   }
-  .skill-box{
+
+  .skill-box {
     margin-top: 50px;
   }
+
+  /* Gadgets & Software Section */
+  .gad-soft {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+  }
+  .gad-heading {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.use{
+  font-size: 15px;
+}
+.gad-box{
+  margin-top: 45px;
+}
 
 }
