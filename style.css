@@ -208,12 +208,72 @@ header {
     text-align: center;
     font-size: 45px;
 }
-.use{
+
+.use {
     font-size: 20px;
 }
-.gad-soft{
+
+.gad-soft {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 55px;
+}
+
+/* Works Section */
+#work-section {
+    margin: 8%;
+    padding: 30px;
+
+}
+
+.work-img1 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.work-img2 {
+    position: relative;
+    top: -54px;
+    left: 70px;
+}
+
+.work-img3 {
+    position: relative;
+    top: -154px;
+    left: 32px;
+}
+
+.work-img4 {
+    position: relative;
+    top: -40px;
+    left: 75px;
+}
+
+.work-img5 {
+    position: relative;
+    top: -40px;
+    left: 105px;
+}
+
+.work-img6 {
+    position: relative;
+    left: 380px;
+    margin-top: -200px;
+
+}
+
+.work {
+    width: 330px;
+    position: relative;
+    /* top: -130px; */
+    margin-top: -140px;
+    color: white;
+    margin-left: 30px;
+
+} 
+.work-head{
+    font-size: 40px;
+
 }
