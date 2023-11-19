@@ -138,16 +138,40 @@
     margin-top: 10px;
 
   }
+
   .gad-heading {
     color: white;
     text-align: center;
     font-size: 30px;
-}
-.use{
-  font-size: 15px;
-}
-.gad-box{
-  margin-top: 45px;
-}
+  }
+
+  .use {
+    font-size: 15px;
+  }
+
+  .gad-box {
+    margin-top: 45px;
+  }
+
+  .work-imgs {
+    display: none;
+  }
+
+  /* Work Sectiom */
+  #work-section {
+    margin-top: 130px;
+  }
+
+  .grp-img {
+    margin-left: 50px;
+    margin-top: 30px;
+    display: block;
+  }
+  .work {
+    text-align: center;
+  }
+  .hire {
+    margin: 20px 50px 30px 0;
+  }
 
 }
