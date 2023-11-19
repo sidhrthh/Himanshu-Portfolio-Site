@@ -275,5 +275,19 @@ header {
 } 
 .work-head{
     font-size: 40px;
-
+}
+.hire{
+    float: right;
+    margin-top: 40px;
+}
+.btn-hire{
+    width: 194px;
+    height: 39px;
+    top: 925px;
+    left: 1040px;
+    border-radius: 17px;
+    background-color: #ff6000;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
