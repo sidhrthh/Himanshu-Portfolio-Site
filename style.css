@@ -270,23 +270,29 @@ header {
     /* top: -130px; */
     margin-top: -140px;
     color: white;
-    
-} 
-.work-head , .work-text{
+
+}
+
+.work-head,
+.work-text {
     margin-left: 30px;
 
 }
-.grp-img{
+
+.grp-img {
     display: none;
 }
-.work-head{
+
+.work-head {
     font-size: 40px;
 }
-.hire{
+
+.hire {
     float: right;
     margin-top: 40px;
 }
-.btn-hire{
+
+.btn-hire {
     width: 194px;
     height: 39px;
     top: 925px;
@@ -296,4 +302,27 @@ header {
     border: none;
     color: white;
     cursor: pointer;
+}
+
+/* Services Section */
+.service-header {
+    font-size: 45px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+
+}
+
+.hori-roluer {
+    height: 2px;
+    width: 100vw;
+    background-color: #ff6000;
+}
+
+.verti-rouler {
+    height: 90vh;
+    width: 2px;
+    background-color: #ff6000;
+    position: relative;
+    left: 330px;
+    margin-top: -174px;
 }
