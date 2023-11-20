@@ -305,6 +305,9 @@ header {
 }
 
 /* Services Section */
+#service-section{
+    color: white;
+}
 .service-header {
     font-size: 45px;
     margin-left: 35px;
@@ -324,5 +327,19 @@ header {
     background-color: #ff6000;
     position: relative;
     left: 330px;
-    margin-top: -174px;
+    margin-top: -360px;
+}
+.left-container-header{
+    font-size: 35px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.categories-item li {
+    color: white;
+    margin: 15px 0 0 100px;
+}
+.categories-item li a {
+    color: white;
+    font-size: 21px;
+
 }
