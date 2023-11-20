@@ -163,13 +163,16 @@
   }
 
   .grp-img {
-    margin-left: 50px;
+    margin-left: 35px;
     margin-top: 30px;
     display: block;
   }
-  .work {
+ 
+  .work-head , .work-text{
+    margin-left: 0px;
     text-align: center;
-  }
+
+}
   .hire {
     margin: 20px 50px 30px 0;
   }

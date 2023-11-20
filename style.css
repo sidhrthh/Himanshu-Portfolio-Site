@@ -270,9 +270,12 @@ header {
     /* top: -130px; */
     margin-top: -140px;
     color: white;
+    
+} 
+.work-head , .work-text{
     margin-left: 30px;
 
-} 
+}
 .grp-img{
     display: none;
 }
