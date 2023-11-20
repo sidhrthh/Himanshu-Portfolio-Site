@@ -312,7 +312,9 @@ header {
     font-size: 45px;
     margin-left: 35px;
     margin-bottom: 20px;
-
+}
+.service-container{
+    display: flex;
 }
 
 .hori-roluer {
@@ -326,8 +328,7 @@ header {
     width: 2px;
     background-color: #ff6000;
     position: relative;
-    left: 330px;
-    margin-top: -360px;
+    left: 100px;
 }
 .left-container-header{
     font-size: 35px;
@@ -341,5 +342,8 @@ header {
 .categories-item li a {
     color: white;
     font-size: 21px;
-
+}
+.right-container{
+    width: 72vw;
+    margin-left: 100px;
 }
