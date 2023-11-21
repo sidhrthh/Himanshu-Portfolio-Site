@@ -347,3 +347,11 @@ header {
     width: 72vw;
     margin-left: 100px;
 }
+.wrapper .carousel {
+white-space: nowrap;
+}
+.carousel img {
+    height: 380px ;
+    width: calc(100% / 3);
+    object-fit: cover;
+}
