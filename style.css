@@ -346,12 +346,25 @@ header {
 .right-container{
     width: 72vw;
     margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+
 }
-.wrapper .carousel {
+.wrapper {
+    max-width: 1200px;
+}
+.wrapper .carousel { klienpiwenpownpoqwnpoqj-oqjq-
 white-space: nowrap;
 }
 .carousel img {
     height: 380px ;
+    margin-left: 15px;
     width: calc(100% / 3);
     object-fit: cover;
+}
+.carousel img:first-child{
+    margin-left: 0;
+
 }
