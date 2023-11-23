@@ -12,14 +12,12 @@
     left: 0;
     right: 0;
     width: 100vw;
-    background-color: #FF6000;
+    background-color: #ff6000;
     overflow: hidden;
-
   }
 
   .nav-bar.active {
     height: 450px;
-
   }
 
   .nav-bar ul {
@@ -37,7 +35,6 @@
 
   .logo img {
     margin-left: 25px;
-
   }
 
   #home {
@@ -82,7 +79,6 @@
 
   .touch-btn-email {
     margin-left: 125px;
-
   }
 
   .interest {
@@ -93,7 +89,6 @@
 
   #about-text {
     margin-left: 10px;
-
   }
 
   .about-heading {
@@ -136,7 +131,6 @@
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
-
   }
 
   .gad-heading {
@@ -167,14 +161,29 @@
     margin-top: 30px;
     display: block;
   }
- 
-  .work-head , .work-text{
+
+  .work-head,
+  .work-text {
     margin-left: 0px;
     text-align: center;
-
-}
+  }
   .hire {
     margin: 20px 50px 30px 0;
   }
-
+  .service-container{
+    flex-direction: column;
+  }
+  .right-container{
+    margin:20px 60px 100px 60px;
+  }
+  .wrapper i:last-child{
+    right: 40px;
+  }
+  .verti-rouler{
+    display: none;
+  }
+  .carousel img {
+    width: 70%;
+  }
+   
 }
