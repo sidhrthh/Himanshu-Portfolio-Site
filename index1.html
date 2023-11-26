@@ -4,33 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the web page -->
     <title>Himanshu Portolio Site | Himanshu Tekam</title>
-    <!-- Include CSS -->
+
+    <!-- Include main CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
-    <!-- Include Stylesheet for tablet -->
+
+    <!-- Include Stylesheet specifically designed for tablets -->
     <link rel="stylesheet" href="tablet.css">
-    <!-- Include Stylesheet for Moblie -->
+
+    <!-- Include Stylesheet optimized for mobile devices -->
     <link rel="stylesheet" href="moblie.css">
-    <!-- Links Google fonts -->
+
+    <!-- Connect to Google Fonts to fetch the Poppins font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Link Icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    <!-- Header Section -->
     <header>
+        <!-- Logo Section -->
         <div class="logo">
             <a href="#"><img src="logo/Himanshu logo.png" alt="Himanshu Logo"></a>
         </div>
+        <!-- Hamburger Icon for Mobile Menu -->
         <div class=" hamburger">
-                <img src="icons/menu icon.png" alt="menu-icon">
+            <img src="icons/menu icon.png" alt="menu-icon">
         </div>
+        <!-- Navigation Bar Section -->
         <nav class="nav-bar">
             <ul>
+                <!-- Navigation Items -->
                 <li><a href="#about">About Me </a></li>
                 <li><a href="#"> My Skills </a></li>
                 <li><a href="#">My Work</a></li>
@@ -39,20 +50,25 @@
                 <li><a href="#">Contact Me</a></li>
             </ul>
         </nav>
-        <div class="social-icon">
+        <!-- Social Icons Section -->
+        <ul class="social-icon">
             <li><a href="#"> <img src="Social media icons/instagram.png" alt="instagram icon" style="width: 50px;"></a>
             </li>
             <li><a href="#"> <img src="Social media icons/facebook.png" alt="facebook icon" style="width: 46px;"></a>
             </li>
             <li><a href="#"><img src="Social media icons/twitter.png" alt="twitter icon" style="width: 46px;"></a></li>
             <li><a href="#"><img src="Social media icons/behance.png" alt="behance icon" style="width: 46px;"></a></li>
-        </div>
+        </ul>
     </header>
+
     <!-- Home Section -->
     <div id="home">
+        <!-- Introduction Section -->
         <div class="intro">
+            <!-- Heading - Name -->
             <p class="heading">Himanshu</p>
             <p class="heading">Photography</p>
+            <!-- Description -->
             <p class="discription">
                 Welcome to Himanshu Photography, where we specialize in capturing life’s most precious moments. From
                 weddings to events to everyday moments,
@@ -60,20 +76,28 @@
                 detail and passion for visual storytelling, we aim to make every shoot a memorable experience. So come,
                 let’s capture your story together.
             </p>
+            <!-- Get in Touch Button -->
             <div class="touch-btn">
+                <!-- Background for Icon -->
                 <div class="icon-bgcolor"></div>
+                <!-- Button Content -->
                 <div class="button">
+                    <!-- Get in Touch Text -->
                     <p class="camera-head"> <a href="/" style="color: white;">Get in Touch</a></p>
+                    <!-- Camera Icon -->
                     <p class="camera-icon"> <img src="icons/camera.png" alt="camera-icon"></p>
                 </div>
             </div>
         </div>
+
+        <!-- Home Image Section -->
         <div class="home-image">
             <img src="Landing page image/Home image.png" alt="landing page image">
         </div>
     </div>
 
-    <div id="about">
+    <!-- About Me Section -->
+    <section id="about">
         <div class="about-contant">
             <p class="interest">Interested in my services ?</p>
             <div class="touch-btn-email">
@@ -83,15 +107,18 @@
                     <p class="email-icon"> <img src="icons/email-icon.png" alt="email-icon" width="35px"></p>
                 </div>
             </div>
-
         </div>
-        <!-- About Section -->
+
+
         <div id="about-me">
+            <!-- Himanshu's Image -->
             <div class="about-img">
                 <img src="Himanshu image/Himanshu-img.png" alt="himanshu image">
             </div>
+            <!-- About Me Text Section -->
             <div id="about-text">
                 <p class="about-heading">About Me</p>
+                <!--Description -->
                 <p class="about-text-sub"> Hey there! I’m Himanshu, a photographer with a passion
                     for capturing life’s most precious moments. From the first kiss at a wedding to the laughter shared
                     between friends at an event, I love nothing more than being able to freeze these moments in time
@@ -104,81 +131,101 @@
                     to work with you.</p>
             </div>
         </div>
-    </div>
+    </section>
+
     <!-- Experience Section -->
-    <div class="experience">
+    <section class="experience">
+
+        <!-- Experience Item - Years in the Photo Industry -->
         <div class="experience-item">
             <p class="big-text">5+</p>
             <p class="small-text">Year in photo industry </p>
         </div>
+
+        <!-- Experience Item - Satisfied Customers -->
         <div class="experience-item">
             <p class=" big-text">500+</p>
             <p class="small-text">Content Customer </p>
-
         </div>
+
+        <!-- Experience Item - Retouched Photos -->
         <div class="experience-item">
             <p class=" big-text">5000+</p>
             <p class="small-text">Retouched photos</p>
         </div>
-    </div>
+    </section>
 
-    <!-- SKills Section -->
-    <div id="skill-section">
+    <!-- Skill Section -->
+    <section id="skill-section">
         <p class="skill-heading">Skills</p>
+        <!-- Skill Items -->
         <div class="skill">
+            <!-- Photography Skill -->
             <div class="shooting skill-box">
                 <img src="Himanshu skills images/Photography.png" alt="photogra image">
                 <p class="skill-sub-heading"> Photography</p>
             </div>
+            <!-- Videography Skill -->
             <div class="video skill-box">
                 <img src="Himanshu skills images/video graphy.png" alt="videography image">
                 <p class="skill-sub-heading"> Video Graphy</p>
             </div>
+            <!-- Editing Skill -->
             <div class="editing skill-box">
                 <img src="Himanshu skills images/editing.png" alt="editing image">
                 <p class="skill-sub-heading"> Editing</p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="gadgets-software-section">
+    <!-- Gadgets/Software Section -->
+    <section id="gadgets-software-section">
         <p class="gad-heading">
             Gadgets / Software <span class="use">I use</span>
         </p>
         <div class="gad-soft">
             <div class="gad-box">
+                <!-- Canon Logo -->
                 <img src="Gadgets  & Software icons/canon.png" alt="canon-logo">
             </div>
             <div class="gad-box">
+                <!-- Nikon Logo -->
                 <img src="Gadgets  & Software icons/Nikon.png" alt="nikon-logo">
             </div>
             <div class="gad-box">
+                <!-- Sony Logo -->
                 <img src="Gadgets  & Software icons/sony.png" alt="sony-logo">
             </div>
             <div class="gad-box">
+                <!-- Premiere Pro Logo -->
                 <img src="Gadgets  & Software icons/Premeium Pro.png" alt="Premium pro-logo">
             </div>
             <div class="gad-box">
+                <!-- After Effects Logo -->
                 <img src="Gadgets  & Software icons/After Effect.png" alt="After Effect-logo ">
             </div>
             <div class="gad-box">
+                <!-- Cap Cut Logo -->
                 <img src="Gadgets  & Software icons/Cap cut.png" alt="cap cut-logo">
             </div>
             <div class="gad-box">
+                <!-- VN Logo -->
                 <img src="Gadgets  & Software icons/VN.png" alt="VN logo">
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Works Section -->
-    <div id="work-section">
+    <!-- Work Section -->
+    <section id="work-section">
         <div class="work-imgs">
+            <!--Work Images -->
             <img class="work-img1" src="Works Images/top left.png" alt="work img">
             <img class="work-img2" src="Works Images/top right.png" alt="work img">
             <img class="work-img3" src="Works Images/left center.png" alt="work img">
             <img class="work-img4" src="Works Images/center center.png" alt="work img">
             <img class="work-img5" src="Works Images/right center.png" alt="work img">
         </div>
+        <!-- Work Description -->
         <div class="work">
             <p class="work-head">My Work</p>
             <p class="work-text">I am a photography specialist capturing moments and telling stories with a keen eye for
@@ -186,6 +233,8 @@
                 journey that not only captures the essence of fleeting instants but also ignites change and stirs
                 emotions, creating a powerful and evocative tapestry of storytelling through my lens.
         </div>
+
+        <!-- A Group Work Image -->
         <div class="grp-img">
             <img src="Works Images/group all img.png" alt="group work image">
         </div>
@@ -193,13 +242,15 @@
         <div class="hire">
             <button class="btn-hire">Hire me</button>
         </div>
-    </div>
+    </section>
 
-    <!-- Services Section -->
-    <div id="service-section">
+    <!-- Service Section -->
+    <section id="service-section">
         <p class="service-header">Services</p>
+        <!-- Horizontal Ruler -->
         <div class="hori-roluer"></div>
         <div class="service-container">
+            <!-- Left Container -->
             <div class="left-container">
                 <p class="left-container-header">/Categories</p>
                 <div class="categories-item">
@@ -213,11 +264,16 @@
                     </ul>
                 </div>
             </div>
+            <!-- Vertical Ruler -->
             <div class="verti-rouler"></div>
+
+            <!-- Right Container -->
             <div class="right-container">
                 <div class="wrapper">
+                    <!-- Left Arrow -->
                     <i id="left" class="fa-solid fa-angle-left"></i>
                     <div class="carousel">
+                        <!-- Individual Service Images -->
                         <img src="Services Photos/Individual/Services indi img 1.jpg" alt="img" draggable="false">
                         <img src="Services Photos/Individual/Services indi img 2.jpg" alt="img" draggable="false">
                         <img src="Services Photos/Individual/Services indi img 3.jpg" alt="img" draggable="false">
@@ -228,19 +284,22 @@
                         <img src="Services Photos/Individual/Services indi img 8.jpg" alt="img" draggable="false">
                         <img src="Services Photos/Individual/Services indi img 1.jpg" alt="img" draggable="false">
                     </div>
+                    <!-- Right Arrow -->
                     <i id="right" class="fa-solid fa-angle-right"></i>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <div class="hori-roluer-bottom"></div>
 
-    <!-- Plans section -->
-    <div id="plans-section">
+    <!-- Plans Section -->
+    <section id="plans-section">
         <p class="plan-heading">Choose Your Plan</p>
+        <!-- Plan Options -->
         <div class="plan">
             <div class="plans-box basic">
                 <div class="plan-box-head">Basic</div>
+                <!-- List of Plan Features -->
                 <ul class="box-item">
                     <li><img src="icons/checked.png" alt="checked icon"> Candid Photography</li>
                     <li><img src="icons/checked.png" alt="checked icon"> Traditional Photography</li>
@@ -251,9 +310,11 @@
                 <button class="plan-btn"> Book Now</button>
             </div>
 
+            <!-- Standard Plan -->
             <div class="plans-box standard">
                 <div class="plan-box-head">Standard</div>
                 <ul class="box-item">
+                    <!-- List of Plan Features -->
                     <li><img src="icons/checked.png" alt="checked icon"> Candid Photography</li>
                     <li><img src="icons/checked.png" alt="checked icon"> Traditional Photography</li>
                     <li><img src="icons/checked.png" alt="checked icon"> Cinematic Video</li>
@@ -264,9 +325,12 @@
                 </ul>
                 <button class="plan-btn"> Book Now</button>
             </div>
+
+            <!-- Premium Plan -->
             <div class="plans-box standard">
                 <div class="plan-box-head">Premium</div>
                 <ul class="box-item">
+                    <!-- List of Plan Features -->
                     <li><img src="icons/checked.png" alt="checked icon"> Candid Photography</li>
                     <li><img src="icons/checked.png" alt="checked icon"> Traditional Photography</li>
                     <li><img src="icons/checked.png" alt="checked icon"> Cinematic Video</li>
@@ -279,17 +343,21 @@
                 <button class="plan-btn"> Book Now</button>
             </div>
         </div>
-    </div>
+    </section>
+
     <!-- Footer Section -->
     <footer>
+        <!-- Footer Heading -->
         <p class="footer-head">Feel free to
-             <span class="br-tag"><br></span>
+            <span class="br-tag"><br></span>
             ask anything
         </p>
+        <!-- Footer Boxes -->
         <div class="footer-box">
             <div class="content-box box-demo">
-
+                <!-- Ruler -->
                 <div class="ruler"></div>
+                <!-- Contact Information -->
                 <div class="con-email">
                     <p class="boxs-head">Contact</p>
                     <p>+91 989317****</p>
@@ -297,13 +365,14 @@
                 </div>
 
                 <div class="ruler"></div>
+                <!-- Representative Information -->
                 <div class="con-email">
                     <p class="boxs-head">Represantative</p>
-
                     <p>+91 989317****</p>
                     <p>https://himanshuPortfolio.com</p>
                 </div>
 
+                <!-- Social Media Links -->
                 <div class="ruler"></div>
                 <div class="con-email">
                     <p class="boxs-head">Social Media</p>
@@ -322,8 +391,11 @@
                 </div>
 
             </div>
+
+            <!-- Contact Box -->
             <div class="contact-box box-demo">
                 <p class="contact-head"> Contact us</p>
+                     <!-- Input Fields -->
                 <div class="input-box">
                     <input type="text" name="name" placeholder="Name">
                     <br>
@@ -331,6 +403,7 @@
                     <br>
                     <textarea placeholder="Write a message"></textarea>
                 </div>
+                            <!-- Submit Button -->
                 <button class="submit-btn">Submit Now</button>
             </div>
         </div>
