@@ -126,7 +126,7 @@ header {
   left: 175px;
 }
 
-.touch-btn {
+.touch-btn-email {
   margin-left: 80px;
 }
 
@@ -561,8 +561,7 @@ textarea {
   height: 54px;
   border: 1px solid #FF6000;
   background: #FF6000;
-  display: block;
-  margin: 0 auto;
+  margin-left: 50px;
 }
 .submit-btn:hover{
   color: white;
