@@ -185,5 +185,13 @@
   .carousel img {
     width: 70%;
   }
+  .plan {
+    display: flex;
+    flex-direction: column;
+   margin-left: 20%;
+  }
+  .plans-box{
+    margin-bottom: 30px;
+  }
    
 }
