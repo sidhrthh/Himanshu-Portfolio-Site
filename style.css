@@ -1,3 +1,4 @@
+/* Reset Styles for All Elements */
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +8,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Body Background Color */
 body {
   background-color: #000;
 }
 
+/* Header Styles */
 header {
   width: 100%;
   height: 100px;
@@ -21,15 +24,18 @@ header {
   padding: 20px;
 }
 
+/* Logo Styles */
 .logo img {
   margin-left: 40px;
   width: 140px;
 }
 
+/* Hamburger Styles */
 .hamburger {
   display: none;
 }
 
+/* Navigation Styles */
 .nav-bar ul {
   display: flex;
 }
@@ -42,12 +48,13 @@ header {
   cursor: pointer;
 }
 
+/* Social Icon Styles */
 .social-icon {
   display: flex;
   gap: 1rem;
 }
 
-/* Home section Style */
+/* Home Section Styles */
 #home {
   display: flex;
   flex-direction: row;
@@ -58,15 +65,16 @@ header {
 .intro {
   margin-top: 60px;
 }
-
+/* Heading Styles */
 .heading {
   font-size: 75px;
 }
-
+/* Description Styles */
 .discription {
   margin-top: 15px;
 }
 
+/* Button Styles */
 .button {
   margin-top: 25px;
   background-color: #454545;
@@ -77,18 +85,19 @@ header {
   height: 45px;
 }
 
+/* Camera Head Styles */
 .camera-head {
   position: relative;
   top: 12px;
   left: 20px;
 }
-
+/* Camera Icon Styles */
 .camera-icon {
   position: relative;
   top: 9px;
   left: 45px;
 }
-
+/* Icon Background Color Styles */
 .icon-bgcolor {
   background-color: #ff6000;
   height: 57px;
@@ -99,17 +108,16 @@ header {
   border-radius: 50px;
 }
 
-/* About Section */
-
+/* About Me Section Styles */
 #about-me {
   display: flex;
   margin: 0 6%;
 }
-
+/* About Image Styles */
 .about-img img {
   width: 600px;
 }
-
+/* About Text Styles */
 #about-text {
   margin-left: 40px;
   color: white;
@@ -139,7 +147,7 @@ header {
   margin-top: 10px;
   margin-left: 37px;
 }
-
+/* Email Icon Styles */
 .email-icon {
   z-index: 1;
   margin-top: 7px;
@@ -167,7 +175,6 @@ header {
 }
 
 /* Skills Section */
-
 .skill-heading {
   color: white;
   font-size: 50px;
@@ -180,11 +187,6 @@ header {
   justify-content: space-around;
   margin: 5%;
 }
-
-/* .skill img {
-    border-radius: 10px;
-
-} */
 .skill-sub-heading {
   color: white;
   font-size: 32px;
@@ -259,7 +261,6 @@ header {
 .work {
   width: 330px;
   position: relative;
-  /* top: -130px; */
   margin-top: -140px;
   color: white;
 }
