@@ -482,3 +482,37 @@ header {
   margin-bottom: 45px;
 
 }
+
+/* Footer */
+footer{
+  color: white;
+}
+.footer-head{
+  margin-top: 200px;
+  color: white;
+  font-size: 75px;
+  margin-left: 90px;
+}
+.ruler{
+  height: 1px;
+  width: 100%;
+  background: white;
+
+}
+.footer-box{
+  display: flex;
+  flex-direction:row;
+  margin: 4% 7%;
+}
+.box-demo{
+  width: 50%;
+  height: 100vh;
+}
+.boxs-head{
+  font-size: 40px; 
+  margin-bottom: 17px;
+}
+.con-email{
+  padding: 15px 0 15px 0;
+  margin: 10px 0 0 0;
+}
