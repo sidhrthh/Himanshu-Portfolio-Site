@@ -193,5 +193,35 @@
   .plans-box{
     margin-bottom: 30px;
   }
-   
+
+  /* Footer Section */
+
+.footer-head {
+  color: white;
+  font-size: 30px;
+}
+
+.br-tag{
+  display: none;
+}
+.box-demo {
+  width: 100%;
+}
+.ruler {
+  width: 100%;
+}
+
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+    margin: 4% 7%;
+  }
+  .block{
+    display: flex;
+  }
+  .input-box {
+    padding: 40px 0;
+  }
+
+
 }

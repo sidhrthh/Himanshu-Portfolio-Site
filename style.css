@@ -472,47 +472,99 @@ header {
 .plan-btn:hover {
   color: white;
 }
-.margin-bottom-basic{
+
+.margin-bottom-basic {
   margin-bottom: 167px;
 }
-.margin-bottom-standard{
+
+.margin-bottom-standard {
   margin-bottom: 85px;
 }
-.margin-bottom-premium{
+
+.margin-bottom-premium {
   margin-bottom: 45px;
 
 }
 
 /* Footer */
-footer{
+footer {
   color: white;
 }
-.footer-head{
+
+.footer-head {
   margin-top: 200px;
   color: white;
   font-size: 75px;
   margin-left: 90px;
 }
-.ruler{
+
+.ruler {
   height: 1px;
   width: 100%;
   background: white;
 
 }
-.footer-box{
+
+.footer-box {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   margin: 4% 7%;
 }
-.box-demo{
+
+.box-demo {
   width: 50%;
   height: 100vh;
 }
-.boxs-head{
-  font-size: 40px; 
+
+.boxs-head {
+  font-size: 40px;
   margin-bottom: 17px;
 }
-.con-email{
+
+.con-email {
   padding: 15px 0 15px 0;
   margin: 10px 0 0 0;
 }
+
+.contact-head {
+  font-size: 60px;
+  text-align: center;
+}
+
+.input-box {
+  padding: 40px 50px;
+}
+
+input {
+  border: 1px solid #FF6000;
+  width: 481px;
+  height: 54px;
+  background: transparent;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+textarea {
+  width: 481px;
+  height: 200px;
+  background: transparent;
+  border: 1px solid #FF6000;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.submit-btn {
+  width: 481px;
+  height: 54px;
+  border: 1px solid #FF6000;
+  background: #FF6000;
+  display: block;
+  margin: 0 auto;
+}
+.submit-btn:hover{
+  color: white;
+}
+
