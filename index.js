@@ -1,7 +1,8 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector('.nav-bar'); 
-hamburger.addEventListener('click', () => { 
-  navMenu.classList.toggle('hide'); 
+const bar = document.querySelector(".fa-bars");
+const menu = document.querySelector(".menu");
+
+bar.addEventListener("click", () => {
+  menu.classList.toggle("show-menu");
 });
 
 const carousel = document.querySelector(".carousel"),
