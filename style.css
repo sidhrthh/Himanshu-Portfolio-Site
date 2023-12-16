@@ -118,16 +118,16 @@ nav {
 .camera-icon {
   position: relative;
   top: 9px;
-  left: 45px;
+  left: 52px;
 }
 /* Icon Background Color Styles */
 .icon-bgcolor {
   background-color: #ff6000;
-  height: 57px;
-  width: 57px;
+  height: 50px;
+  width: 50px;
   position: relative;
-  top: 77px;
-  left: 132px;
+  top: 73px;
+  left: 142px;
   border-radius: 50px;
 }
 
@@ -174,9 +174,11 @@ nav {
 .email-icon {
   z-index: 1;
   margin-top: 7px;
-  margin-left: 12px;
+  margin-left: 20px;
 }
-
+.email-icon img{
+  width: 80%;
+}
 /* Experience section */
 .experience {
   color: white;
