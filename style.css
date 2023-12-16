@@ -449,66 +449,6 @@ nav {
   margin-left: 0px;
 }
 
-/* Plans section  */
-.plan-heading {
-  color: white;
-  font-size: 55px;
-  text-align: center;
-}
-
-.plan {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 3% 6%;
-}
-
-.plans-box {
-  width: 348px;
-  height: 542px;
-  border-radius: 20px;
-  border: 1px solid #FF6000;
-  background: #D9D9D9;
-  padding: 40px;
-}
-
-.plan-box-head {
-  font-size: 40px;
-  text-align: center;
-}
-
-.box-item li img {
-  position: relative;
-  top: 10px;
-}
-
-.plan-btn {
-  width: 222px;
-  height: 47px;
-  border-radius: 12px;
-  background: #FF6000;
-  border: none;
-  display: block;
-  margin: 0 auto;
-
-}
-
-.plan-btn:hover {
-  color: white;
-}
-
-.margin-bottom-basic {
-  margin-bottom: 167px;
-}
-
-.margin-bottom-standard {
-  margin-bottom: 85px;
-}
-
-.margin-bottom-premium {
-  margin-bottom: 45px;
-
-}
 
 /* Footer */
 footer {
