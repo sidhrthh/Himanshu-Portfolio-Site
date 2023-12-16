@@ -596,45 +596,7 @@ textarea {
 
 
 /* Responsiveness Website */
-@media (min-width: 800px) {
-  .nav-main {
-    max-width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-  }
 
-  .nav-header {
-    padding: 0;
-  }
-  .fa-bars {
-    display: none;
-  }
-
-  .menu {
-    height: auto;
-    display: flex;
-  }
-
-  .menu a {
-    padding: 0;
-    margin: 0 0.5rem;
-  }
-  .menu a:hover {
-    padding: 0;
-    background: transparent;
-  }
-}
-@media (min-width: 300px) and (max-width:800px){
-.social-icon{
-display: none;
-}
-.menu-icon{
-  display: block;
-}
-}
 @media (min-width: 360px) and (max-width:700px)  {
 
   .hamburger {
