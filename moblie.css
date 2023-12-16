@@ -1,4 +1,4 @@
-@media (min-width: 360px) and (max-width:700px)  {
+@media (min-width: 360px) and (max-width:700px) {
 
   .hamburger {
     display: block;
@@ -52,11 +52,11 @@
   }
 
   .touch-btn {
-    margin-left: 170px;
+    margin-left: 60px;
   }
 
   .home-image img {
-    width: 360px;
+    width: 340px;
     display: block;
     margin: 55px auto;
   }
@@ -69,24 +69,24 @@
   .about-img img {
     width: 360px;
     margin: 0 17px;
-    margin-left: 100px;
+    margin-left: -7px;
   }
 
   .about-contant {
     position: relative;
     top: 220px;
     left: 0px;
-    
+
   }
 
   .touch-btn-email {
-    margin-left: 205px;
+    margin-left: 85px;
   }
 
   .interest {
     color: white;
     font-size: 20px;
-    margin-left: 197px;
+    margin-left: 75px;
   }
 
   #about-text {
@@ -146,7 +146,7 @@
   }
 
   .gad-box {
-    margin-top: 45px;
+    margin-top: 20px;
   }
 
   .work-imgs {
@@ -155,11 +155,11 @@
 
   /* Work Sectiom */
   #work-section {
-    margin-top: 130px;
+    margin-top: 160px;
   }
 
   .grp-img {
-    margin-left: 125px;
+    margin-left: 30px;
     margin-top: 30px;
     display: block;
   }
@@ -169,72 +169,97 @@
     margin-left: 0px;
     text-align: center;
   }
+
+  #work-section {
+    padding: 0;
+  }
+
   .hire {
 
     margin: 20px 50px 30px 0;
   }
-  .service-container{
+
+  .service-container {
     flex-direction: column;
   }
-  .right-container{
-    margin:20px 60px 100px 60px;
+
+  .right-container {
+    margin: 20px 60px 100px 60px;
   }
-  .wrapper i:last-child{
+
+  .wrapper i:last-child {
     right: 40px;
   }
-  .verti-rouler{
+
+  .verti-rouler {
     display: none;
   }
+
   .carousel img {
     width: 70%;
   }
+
   .plan {
     display: flex;
     flex-direction: column;
-   margin-left: 20%;
+    margin-left: 20%;
   }
-  .plans-box{
+
+  .plans-box {
     margin-bottom: 30px;
   }
 
- /* footer Section */
-.footer-head {
-  color: white;
-  font-size: 30px;
-}
+  /* footer Section */
+  .footer-head {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
 
-.br-tag{
-  display: none;
-}
-.box-demo {
-  width: 100%;
-}
-.ruler {
-  width: 100%;
-}
+  .br-tag {
+    display: none;
+  }
+
+  .box-demo {
+    width: 100%;
+  }
+
+  .ruler {
+    width: 100%;
+  }
+
+  .boxs-head {
+    font-size: 25px;
+    margin-bottom: 1px;
+  }
 
   .footer-box {
     display: flex;
     flex-direction: column;
     margin: 4% 7%;
   }
-  .block{
+
+  .block {
     display: flex;
   }
+
   .input-box {
     padding: 40px 0;
   }
-.work{
-  margin-left: 86px;
-}
-.contact-box{
-  margin-top: 115px;
-}
-input{
-  width: 562px
-}
-textarea{
-  width: 566px;
+
+
+  input, textarea {
+    width: 90vw;
+  }
+
+  .submit-btn{
+    margin-left: 0px;
+    width: 90vw;
+  }
+  .contact-head {
+    font-size: 45px;
+    text-align: left;
 }
 
 }

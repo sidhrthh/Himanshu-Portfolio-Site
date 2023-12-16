@@ -30,9 +30,9 @@
     }
   }
   @media (min-width: 300px) and (max-width:800px){
-  .social-icon{
-  display: none;
-  }
+    .nav-social_icon{
+      display: none;
+      }
   .menu-icon{
     display: block;
   }
